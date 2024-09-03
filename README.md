@@ -45,6 +45,8 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 - **GitHub**: [Your GitHub Profile](https://github.com/HarshaVardhan1505)
   
 git add README.md
+
 git commit -m "Added README file"
+
 git push origin main
 
