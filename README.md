@@ -25,7 +25,7 @@ To view the portfolio locally:
    cd portfolio
 ## 🛡️ Deployment
 
-The website is live at [GitHub Pages](https://harshavardhan1505.github.io/Harshavardhan-Portfolio/).
+The website is live at [My Portfolio](https://harshavardhan1505.github.io/Harshavardhan-Portfolio/).
 ## 📄 License
 
 This project is licensed under the MIT License.
@@ -34,6 +34,7 @@ This project is licensed under the MIT License.
 - **Blog Section**: Plan to add blog posts on data analysis.
 - **Dark Mode**: Implement a dark mode toggle.
 - **Multilingual Support**: Adding more languages.
+- **Projects**:Adding more projects
 ## 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit pull requests, or open issues with suggestions.
