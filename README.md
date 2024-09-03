@@ -20,7 +20,7 @@ To view the portfolio locally:
 
 1. **Clone the Repository**:
 \
-   git clone https://github.com/yourusername/portfolio.git
+   [git clone](https://github.com/HarshaVardhan1505/Harshavardhan-Portfolio.git)
    
    cd portfolio
 ## 🛡️ Deployment
