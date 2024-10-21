@@ -6,7 +6,6 @@ This portfolio serves as a comprehensive display of my journey, showcasing my ed
 
 - **HTML5**: For the website’s structure.
 - **CSS3**: For styling and layout design.
-- **JavaScript**: To add interactivity and dynamic features.
 - **GitHub Pages**: Used for deployment.
 ## 🌟 Key Features
 
