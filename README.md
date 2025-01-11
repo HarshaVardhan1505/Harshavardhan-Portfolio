@@ -42,6 +42,7 @@ Contributions are welcome! Feel free to fork this repository and submit pull req
 - **Email**: harshavardhanaeity@gmail.com
 - **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/harshavardhan-aeity-019461267)
 - **GitHub**: [Your GitHub Profile](https://github.com/HarshaVardhan1505)
+- **Instagram**: [Your Instagram Profile](https://www.instagram.com/data._detective?igsh=NXV4a291N2JuYnpw)
   
 git add README.md
 
