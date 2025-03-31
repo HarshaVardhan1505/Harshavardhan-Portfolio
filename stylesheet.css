@@ -1,0 +1,579 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+
+/* General Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111010;
+  animation: fadeIn 1.5s ease-in-out; /* Fade-in effect for the entire page */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #000;
+  animation: slideDown 1s ease-in-out; /* Slide-down effect for the navbar */
+}
+
+.nav-link {
+  color: #fdfdfd !important;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #00b3b3;
+}
+/* Navbar Toggler Icon (Hamburger Menu) */
+.navbar-toggler {
+  border-color: #00b3b3 !important; /* White border for the button */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+  /* Custom white icon for the hamburger menu */
+}
+
+/* Home Section */
+.banner-section-bg-container {
+  background-color: black;
+  width: 100%;
+  background-size: cover;
+  padding-top: 100px;
+  height: 50rem;
+  animation: fadeInUp 1.5s ease-in-out; /* Fade-in-up effect for the home section */
+}
+
+.my-image {
+  height: 310px;
+  width: 310px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+  border-radius: 200px;
+  border: 2px solid #008080;
+  animation: zoomIn 1.5s ease-in-out; /* Zoom-in effect for the image */
+}
+
+.hello-text {
+  color: #008080;
+  font-size: 15px;
+  font-weight: 500;
+  animation: fadeInLeft 1.5s ease-in-out; /* Fade-in-left effect for text */
+}
+
+.my-name2 {
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  animation: fadeInRight 1.5s ease-in-out; /* Fade-in-right effect for text */
+}
+
+.banner-caption {
+  color: #f5f7fa;
+  font-size: 24px;
+  font-weight: 300;
+  animation: fadeInUp 1.5s ease-in-out; /* Fade-in-up effect for caption */
+}
+
+.custom-button {
+  height: 50px;
+  width: 120px;
+  border-radius: 30px;
+  background-color: #008080;
+  color: white;
+  font-weight: 600;
+  border: none;
+}
+
+.custom-outline-button {
+  height: 50px;
+  width: 120px;
+  border-radius: 30px;
+  border: 2px solid #008080;
+  background-color: transparent;
+  color: #008080;
+  font-weight: 600;
+}
+
+/* About Me Section */
+.about-me-section-container {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.about-me-heading {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.about-me-description {
+  color: #fdfdfd;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.details-sections {
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.details-anwers {
+  color: #008080;
+  font-weight: 600;
+}
+
+
+/* Resume Section */
+.resume-section-container {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.resume-heading {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.education-card-containers1 {
+  background-color: #333232;
+  border-radius: 30px;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.education-card-containers1 h1 {
+  color: #008080;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.education-card-containers1 .degree-name {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.education-card-containers1 .univesity-name {
+  color: #9e9898;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.education-card-containers1 .resume-card-description {
+  color: #9e9898;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Experience Section */
+.experience-section-container {
+  background-color: black;
+  padding: 50px 0;
+}
+
+.experience-heading {
+  color: white;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.experience-card {
+  padding: 20px;
+  background-color: #333232;
+  border-radius: 30px;
+  margin: 20px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.experience-card h1 {
+  color: #008080;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.experience-card .role {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.experience-card .company-name {
+  color: #9e9898;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.experience-card .description {
+  color: #9e9898;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Projects Section */
+.project-card-heading-container {
+  background-color: #000016;
+  padding: 50px 0;
+}
+
+.project-card {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+.project-image {
+  height: 30vh;
+  width: auto;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #008080;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-info {
+  transform: translateY(0);
+}
+
+.project-heading {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+.project-section-btn {
+  height: 30px;
+  width: 80px;
+  background-color: goldenrod;
+  font-size: 12px;
+  color: #008080;
+  font-weight: bold;
+  border-radius: 20px;
+  border: none;
+}
+.resume-description {
+  color: #9e9898;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 10px;}
+
+
+/* Contact Section */
+#contactSection {
+  background-color: #111010;
+  padding: 60px;
+  text-align: center;
+  animation: fadeIn 1.5s ease-in-out; /* Fade-in effect for the contact section */
+}
+
+#contactSection h2 {
+  color: #008080;
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  animation: fadeInDown 1.5s ease-in-out; /* Fade-in-down effect for heading */
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  animation: fadeInUp 1.5s ease-in-out; /* Fade-in-up effect for the form */
+}
+
+/* Labels */
+#contactForm label {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #ffffff; /* White for labels */
+  font-weight: bold;
+}
+
+/* Input Fields */
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #008080; /* Teal border */
+  border-radius: 5px;
+  font-size: 16px;
+  background: #333232; /* Dark gray background for inputs */
+  color: #ffffff; /* White text */
+}
+
+/* Focus Effect */
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #00b3b3; /* Lighter teal border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 179, 179, 0.5); /* Teal glow effect */
+}
+
+/* Submit Button */
+#contactForm button {
+  background-color: #008080; /* Teal background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+#contactForm button:hover {
+  background-color: #00b3b3; /* Lighter teal on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Alternate Contact Styling */
+.alternate-contact {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alternate-contact a {
+  color: #00b3b3; /* Lighter teal for links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alternate-contact a:hover {
+  text-decoration: underline;
+  color: #008080; /* Teal on hover */
+}
+
+/* Contact Section Heading */
+#contactSection h2 {
+  color: #008080; /* Teal for the heading */
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+/* Contact Form Styling */
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* Labels */
+#contactForm label {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #ffffff; /* White for labels */
+  font-weight: bold;
+}
+
+/* Input Fields */
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #008080; /* Teal border */
+  border-radius: 5px;
+  font-size: 16px;
+  background: #333232; /* Dark gray background for inputs */
+  color: #ffffff; /* White text */
+}
+
+/* Focus Effect */
+#contactForm input:focus,
+#contactForm textarea:focus {
+  border-color: #00b3b3; /* Lighter teal border on focus */
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 179, 179, 0.5); /* Teal glow effect */
+}
+
+/* Submit Button */
+#contactForm button {
+  background-color: #008080; /* Teal background */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease;
+}
+
+/* Button Hover Effect */
+#contactForm button:hover {
+  background-color: #00b3b3; /* Lighter teal on hover */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Alternate Contact Styling */
+.alternate-contact {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.alternate-contact a {
+  color: #00b3b3; /* Lighter teal for links */
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.alternate-contact a:hover {
+  text-decoration: underline;
+  color: #008080; /* Teal on hover */
+}
+
+
+/* Footer Section */
+.icons-container {
+  background-color: #333;
+  padding: 20px 0;
+  animation: fadeIn 1.5s ease-in-out; /* Fade-in effect for the footer */
+}
+
+
+.follow-us-heading {
+  color: #008080;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.iconsss {
+  color: #008080;
+  font-size: 25px;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+  animation: bounce 2s infinite; /* Bounce animation for icons */
+}
+
+.iconsss:hover {
+  transform: scale(1.2); /* Slight zoom on hover */
+}
+.footer-discription {
+  color: #c6c2c2c9;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
